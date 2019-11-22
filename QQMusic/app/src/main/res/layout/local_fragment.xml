@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:drawableLeft="@drawable/ic_music_video_black_24dp"
+    android:textSize="@dimen/titleHint"
+    android:text="@string/local_music"
+    android:layout_width="fill_parent"
+    android:layout_marginLeft="@dimen/activity_vertical_margin"
+    android:textColor="@color/black"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="@dimen/space_height"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:background="@color/grey">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/box_height"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/line_width">
+        <Button
+            android:id="@+id/music_list_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/box_btn_height"
+            android:layout_weight="1"
+            android:text="@string/recent"
+            android:background="@color/white"
+            android:drawableTop="@drawable/box_recent_music_16dp"/>
+        <View
+            android:layout_height="@dimen/box_line_vertical"
+            android:layout_width="@dimen/line_width"
+            android:background="@color/lightgrey">
+
+        </View>
+        <Button
+            android:id="@+id/favor_floder_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/box_btn_height"
+            android:layout_weight="1"
+            android:text="@string/music_list"
+            android:background="@color/white"
+            android:drawableTop="@drawable/box_recent_music_16dp"/>
+        <View
+            android:layout_height="@dimen/box_line_vertical"
+            android:layout_width="@dimen/line_width"
+            android:background="@color/lightgrey">
+
+        </View>
+        <Button
+            android:id="@+id/favor_floder"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/box_btn_height"
+            android:layout_weight="1"
+            android:text="@string/favor_floder"
+            android:background="@color/white"
+            android:drawableTop="@drawable/box_recent_music_16dp"/>
+        <View
+            android:layout_height="@dimen/box_line_vertical"
+            android:layout_width="@dimen/line_width"
+            android:background="@color/lightgrey">
+
+        </View>
+        <Button
+            android:id="@+id/down_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/box_btn_height"
+            android:layout_weight="1"
+            android:text="@string/down_manager"
+            android:background="@color/white"
+            android:drawableTop="@drawable/box_recent_music_16dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="@dimen/depart_space_height"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/depart_space_height"
+        android:background="@color/lightgrey"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/box_height"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:layout_marginTop="@dimen/depart_space_height"
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recent_mark_count"
+            android:button="@drawable/ic_all_play_24dp"
+            android:checked="true"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/titleHint"
+            android:layout_weight="2"
+            ></View>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/band_title"
+    android:background="@color/lightgrey">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/local_list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:visibility="gone"
+        ></android.support.v7.widget.RecyclerView>
+       <TextView
+           android:id="@+id/no_local"
+           android:gravity="center"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/no_local"
+           android:drawableTop="@drawable/ic_error_outline_black_24dp"/>
+</FrameLayout>
+</LinearLayout>

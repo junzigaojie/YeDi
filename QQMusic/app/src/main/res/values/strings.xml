@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">QQMusic</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="person">我的</string>
+    <string name="favor">精选</string>
+    <string name="band">榜单</string>
+    <string name="set">设置</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="my_music">我的音乐</string>
+    <string name="local_music">本地音乐</string>
+    <string name="online_music">在线音乐</string>
+    <string name="download_music">下载管理</string>
+    <string name="downloading">正在下载</string>
+    <string name="folder">文件夹</string>
+    <string name="artist">歌手</string>
+    <string name="song">歌曲</string>
+    <string name="album">专辑</string>
+    <string name="download">下载</string>
+    <string name="my_playlist">我的歌单</string>
+    <string name="ilike">我喜欢</string>
+    <string name="playlist">歌单</string>
+    <string name="setting">设置</string>
+    <string name="quit">退出</string>
+    <string name="about">关于</string>
+    <string name="other">其他</string>
+    <string name="delete">删除</string>
+    <string name="detail">歌曲信息</string>
+    <string name="ringtone">铃声</string>
+    <string name="mode_random">随机播放</string>
+    <string name="wifi">仅限Wi-Fi联网</string>
+    <string name="gesture_setting">手势开启</string>
+    <string name="about_version">版本号:1.0.0</string>
+    <string name="about_tips_title">温馨提示</string>
+    <string name="about_tips">此版本适用于Android2.1及以上固件的设备，本软件下载，安装完全免费。用户在使用过程中所产生的移动业务的数据费用皆由移动通信运营商收取。建议用户向移动通信运营商定制合适的流量套餐，或者选择WLAN网络使用，以减少相关上网数据费用。</string>
+    <string name="about_copyright">Copyright © 2013 Beijing Anjoyo Wangyan</string>
+    <string name="about_co">Technologies Co.,Ltd.All rights reserved.</string>
+    <string name="title_default">欢迎来到我的音乐</string>
+    <string name="artist_default">让音乐跟我走</string>
+    <string name="new_band">新歌榜</string><!-- type=1 -->
+    <string name="hot_band">热歌榜</string><!-- type=2 -->
+    <string name="ktv_band">KTV榜单</string><!-- type=6 -->
+    <string name="rock_band">摇滚榜</string><!-- type=11 -->
+    <string name="chizha_band">叱咤榜</string><!-- type=7 -->
+    <string name="billboard_band">广告榜</string><!-- type=8 -->
+    <string name="sprite_band">sprite</string><!-- type=9-->
+    <string name="main_band">推荐榜单</string><!-- type=13 -->
+
+    <string name="search_int">请输入关键字</string><!-- type=13 -->
+    <string name="search_btn">搜索</string>
+
+    <string name="recent">最近播放</string>
+    <string name="music_list">本地音乐</string>
+    <string name="favor_floder">我的收藏</string>
+    <string name="down_manager">下载管理</string>
+
+    <string name="recent_mark_count">全部播放(%1$d)</string>
+
+    <string name="no_local">无本地音乐</string>
+    <string name="title_activity_play_music">PlayMusicActivity</string>
+
+    <string name="re_artist">推荐歌手</string>
+    <string name="re_yedi">推荐歌单</string>
+    <string name="re_nostalgic">青春回忆</string>
+    <string name="re_pregnancy">每日精选</string>
+
+    <string name="apply_ok">授权成功</string>
+    <string name="apply_fail">授权失败</string>
+
+    <string name="title">自定义ScrollView实现放大回弹效果</string>
+    <string name="loading">正在加载中，请稍后...</string>
+
+    <string name="nick_name">一花一世界</string>
+    <string name="attention">关注</string>
+    <string name="fans">粉丝</string>
+    <string name="visitors">访客</string>
+    <string name="talk_about">说说</string>
+    <string name="at_night">夜间</string>
+    <string name="collection">收藏</string>
+    
+    <string-array name="item_array">
+        <item>一花一世界</item>
+        <item>关注</item>
+        <item>粉丝</item>
+        <item>访客</item>
+        <item>说说</item>
+        <item>夜间</item>
+        <item>收藏</item>
+    </string-array>
+
+
+</resources>

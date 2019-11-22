@@ -42,7 +42,6 @@
 
         </View>
         <Button
-            android:id="@+id/favor_floder_btn"
             android:layout_width="0dp"
             android:layout_height="@dimen/box_btn_height"
             android:layout_weight="1"
@@ -56,7 +55,6 @@
 
         </View>
         <Button
-            android:id="@+id/favor_floder"
             android:layout_width="0dp"
             android:layout_height="@dimen/box_btn_height"
             android:layout_weight="1"
@@ -70,7 +68,6 @@
 
         </View>
         <Button
-            android:id="@+id/down_btn"
             android:layout_width="0dp"
             android:layout_height="@dimen/box_btn_height"
             android:layout_weight="1"
@@ -93,7 +90,6 @@
 
         <CheckBox
             android:layout_marginTop="@dimen/depart_space_height"
-            android:id="@+id/checkbox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/recent_mark_count"
@@ -120,14 +116,12 @@
         android:layout_margin="@dimen/band_title"
     android:background="@color/lightgrey">
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/local_list"
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:scrollbars="none"
         android:visibility="gone"
         ></android.support.v7.widget.RecyclerView>
        <TextView
-           android:id="@+id/no_local"
            android:gravity="center"
            android:layout_width="fill_parent"
            android:layout_height="wrap_content"
